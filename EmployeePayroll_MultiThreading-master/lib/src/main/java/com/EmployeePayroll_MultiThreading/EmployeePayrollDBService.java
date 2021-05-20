@@ -31,7 +31,7 @@ public class EmployeePayrollDBService {
 		connectionCounter++;
 		String jdbcURL = "jdbc:mysql://localhost:3306/payroll_service";
 		String userName = "root";
-		String password = "13041997@Mda";
+		String password = "@Tanvish08";
 		// the DriverManager class will attempt to load available JDBC drivers
 		log.info("Processing Thread : " + Thread.currentThread().getName() + "Connecting to database : " + jdbcURL);
 		connection = DriverManager.getConnection(jdbcURL, userName, password);
